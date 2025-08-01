@@ -1,10 +1,13 @@
 # WMbinding
+
 Code for a working memory model of sentence processing as binding morphemes to syntactic positions
 
 
-## How to run:
+### How to run:
 
 torch_vecs.py softmax_temp root_size root_cos agr_size num_vals pos_size pos_cos
+
+Example: torch_vecs.py 0.1 100 0.1,0.8 20 101 100 0.4,0.2
 
 For several distractors, separate cosine values (both for roots and for agreement) by a comma with no intervening space; e.g., 0.1,0.8. 
 
